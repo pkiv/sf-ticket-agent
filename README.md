@@ -2,6 +2,8 @@
 
 Welcome! This project demonstrates how to automate parking ticket payments using [Stagehand](https://github.com/browserbase/stagehand).
 
+To use Stagehand, run `npx create-browser-app@latest` in your terminal or check out the [Browserbase Stagehand Quickstart on GitHub](https://github.com/browserbase/playbook/tree/main/stagehand-quickstart)
+
 ## About This Project
 
 This automation script helps you pay parking tickets on the San Francisco Municipal Transportation Agency website. It uses Stagehand, an SDK built on top of [Playwright](https://playwright.dev/) that provides AI-powered automation capabilities.
@@ -38,7 +40,7 @@ This automation script helps you pay parking tickets on the San Francisco Munici
 4. Run the script:
 
    ```bash
-   npx tsx index.ts
+   npm run start
    ```
 
 ## What This Script Does
